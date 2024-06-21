@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Manipulator Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <header>
+        <div class="container">
+            <h1>Font Manipulator</h1>
+            <p class="instructions">Use your wrists to adjust the font size</p>
+            <span id="fontSizeIndicator">Font Size: 16px</span>
+        </div>
+    </header>
+    <main>
+        <div id="canvas-container"></div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Developed by Kavin</p>
+        </div>
+    </footer>
+    </center>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+    <script src="main.js"></script>
+</body>
+</html>

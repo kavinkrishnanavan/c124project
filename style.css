@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    border: 2px solid black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    background-color: #343a40;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
